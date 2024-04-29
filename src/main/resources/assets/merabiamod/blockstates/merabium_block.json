@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "":{ "model": "merabiamod:block/merabium_block" }
+    }
+}
