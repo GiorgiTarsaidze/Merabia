@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> MERABIUM = ITEMS.register("merabium",
         () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MERABIA_TAB)));
 
+    public static final RegistryObject<Item> MERABIUM_SHARD = ITEMS.register("merabiumshard",
+        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MERABIA_TAB)));
+
 
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);
