@@ -3,12 +3,12 @@ package net.tarso.merabiamod.block;
 import net.tarso.merabiamod.MerabiaMod;
 import net.tarso.merabiamod.item.ModCreativeModeTab;
 import net.tarso.merabiamod.item.ModItems;
-// import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-// import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,10 +26,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MERABIA_TAB);
 
-    // public static final RegistryObject<Block> MERABIUM_ORE = registerBlock("merabium_ore",
-    //         () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-    //                 .strength(6f).requiresCorrectToolForDrops(),
-    //                 UniformInt.of(3, 7)), ModCreativeModeTab.MERABIA_TAB);
+    public static final RegistryObject<Block> MERABIUM_ORE = registerBlock("merabium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 7)), ModCreativeModeTab.MERABIA_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

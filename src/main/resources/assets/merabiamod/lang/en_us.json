@@ -1,8 +1,9 @@
 {
- "item.merabiamod.merabium": "Merabium Ore",
+ "item.merabiamod.merabium": "Merabium",
  "item.merabiamod.merabiumshard": "Merabium Shard",
 
  "block.merabiamod.merabium_block": "Merabium Block",
+ "block.merabiamod.merabium_ore": "Merabium Ore",
 
  "itemGroup.merabiatab": "Merabia"
 }
