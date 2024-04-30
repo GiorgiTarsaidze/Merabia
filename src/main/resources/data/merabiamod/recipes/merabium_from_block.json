@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "merabiamod:merabium_block"
+      }
+    ],
+    "result": {
+      "item": "merabiamod:merabium",
+      "count": 9
+    }
+}
